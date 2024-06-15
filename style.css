@@ -586,7 +586,7 @@ footer{
 .social-icons li a{
     color: #000;
     cursor: pointer;
-    
+     font-size: 10px;   
 }
 
 .social-icons li{
