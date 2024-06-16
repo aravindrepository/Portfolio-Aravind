@@ -407,6 +407,7 @@ h2 strong {
     transition-duration: 200ms ;
     transition-timing-function: ease-out;
     animation: cursorAnim 1s infinite alternate; 
+    pointer-events: none;
 }
 @keyframes cursorAnim{
     from{
@@ -586,7 +587,7 @@ footer{
 .social-icons li a{
     color: #000;
     cursor: pointer;
-     font-size: 10px;   
+       
 }
 
 .social-icons li{
@@ -596,7 +597,9 @@ footer{
 .i-text{
     display: none;
 }
-
+.qualification-content a{
+    color: #4d63dd;
+}
 
 
 
@@ -705,4 +708,20 @@ footer{
     .i-text{
         display: block;
     }
+    .social-icons li {
+        margin: 0 10px;
+    }
+    .social-icons a {
+        text-decoration: none;
+        color: inherit;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .social-icons a i {
+        font-size: 24px;
+    }
+    footer.cursor {
+        display: none;
+    }
+
 }
